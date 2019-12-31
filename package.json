@@ -15,7 +15,9 @@
     "dist",
     "src"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "mvue": "0.0.4"
+  },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
