@@ -91,7 +91,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 li {
   list-style: none;
   display: inline-block;
@@ -107,7 +107,14 @@ li {
 
 }
 
-.active, li:hover {
+ li:hover {
+  background-color: rgba(65, 182, 131, .5);
+  color: #ffffff;
+  border-color: rgba(65, 182, 131, .5);
+
+}
+
+.active {
   background-color: rgba(65, 182, 131, .5);
   color: #ffffff;
   border-color: rgba(65, 182, 131, .5);

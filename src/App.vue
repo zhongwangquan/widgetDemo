@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
 import Vue from 'vue'
 import {Page, Tree} from '../dist/mvue.js'
 Vue.use(Page);
